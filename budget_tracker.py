@@ -79,6 +79,8 @@ def view_balance(transactions):
 
     else:
         print("Invalid choice. Please select 1, 2, or 3.")
+def get_date():
+    return datetime.now().strftime("%d/%m/%Y")
 def main():
     data = load_from_file("budget.json")
     while True:
@@ -87,7 +89,7 @@ def main():
         print("3. Delete transaction")
         print("4. View Balance")
         print("5. Exit")
-        choice = input("Enter your choice (1-4): ")
+        choice = input("Enter your choice (1-5): ").strip()
         if choice == "1":
             data = add_transaction(data)
             #display_transactions(data)
