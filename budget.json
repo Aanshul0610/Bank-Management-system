@@ -1,1 +1,1 @@
-{"19/05/2025": [{"category": "rent", "amount": 300.0, "date": "19/05/2025", "note": "", "type": "food"}]}
+{"19/05/2025": [{"category": "rent", "amount": 300.0, "date": "19/05/2025", "note": "", "type": "food"}], "20/05/2025": [{"category": "rent", "amount": 2000.0, "date": "20/05/2025", "note": "the rent for the dorm at campus heights", "type": "expense"}, {"category": "job", "amount": 100000.0, "date": "20/05/2025", "note": "This is along with the bonus for the month", "type": "income"}]}
